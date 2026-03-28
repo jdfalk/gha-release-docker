@@ -24,7 +24,7 @@ runs:
   using: 'composite'
   steps:
     - name: Build and push image
-      uses: jdfalk/release-docker-action@2eba2c46c57bb536e2e5ed28ea8266962ef12771 # v1.0.3
+      uses: jdfalk/release-docker-action@f7c405d520a18d5cd27d47fc2953d7228632e078 # v1.0.4
       with:
         context: .
         dockerfile: Dockerfile
